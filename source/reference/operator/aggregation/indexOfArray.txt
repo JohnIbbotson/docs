@@ -183,7 +183,7 @@ Consider an ``inventory`` collection with the following documents:
    { "_id" : 5, "amount" : 3 }
 
 The following operation uses the :expression:`$indexOfArray` operator to
-return the array index at which the string ``foo`` is located in each ``items`` array:
+return the array index at which the value ``2`` is located in each ``items`` array:
 
 .. code-block:: javascript
 
